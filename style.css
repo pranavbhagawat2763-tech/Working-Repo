@@ -152,6 +152,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
+    z-index: 1;
 }
 
 .nav-icons img{
@@ -216,10 +217,14 @@ a {
 
 .footer{
     height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .line{
     width: 90%;
-    height: 30%;
-    border: 2px solid black ;
+    height: 50%;
+    border-top: 1px solid white;
+    opacity: 0.4;
 }
