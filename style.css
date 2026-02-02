@@ -221,5 +221,5 @@ a {
 .line{
     width: 90%;
     height: 30%;
-    border: 1px  ;
+    border: 2px solid black ;
 }
