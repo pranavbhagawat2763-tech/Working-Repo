@@ -36,6 +36,7 @@ body {
     /*16px */
     overflow: auto;
     flex: 1;
+    padding: 0 1.5rem 0 1.5rem;
 
 }
 
@@ -185,4 +186,40 @@ a {
     .hide{
         display: none;
     }
+}
+.card{
+    background-color:#232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-img{
+    width: 150px;
+    border-radius: 0.5rem;
+}
+
+.card-tilte{
+    font-weight: 600;
+}
+
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.footer{
+    height: 300px;
+}
+
+.line{
+    width: 90%;
+    height: 30%;
+    border: 1px  ;
 }
