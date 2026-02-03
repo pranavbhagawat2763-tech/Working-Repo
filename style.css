@@ -22,7 +22,7 @@ body {
 }
 
 .player {
-    background-color: #121212;
+    background-color: green;
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -239,7 +239,7 @@ a {
 
 .Picon{
     height: 1rem;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 
@@ -250,7 +250,49 @@ a {
 }
 
 
-/* .buttons{
-    text-align: center;
-    padding-top: 15px;
-} */
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+
+.Play-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.75rem;
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+.progress-bar{
+    margin-left: 5%;
+} 
+.player{
+    display: flex;
+}
+
+.album{
+    width: 25%;
+    background-color: white;
+}
+
+.player-main{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.control{
+    width: 25%;
+    background-color: white;
+}
+
+.curr-time{
+    margin-left: 10%;
+}
